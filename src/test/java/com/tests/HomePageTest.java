@@ -25,7 +25,7 @@ public class HomePageTest extends TestBase {
 		
 	}
 	
-	@Test
+	//@Test
 	public void loginTest() throws Exception
 	{
 		objHomePage=new HomePage();

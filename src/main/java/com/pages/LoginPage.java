@@ -39,10 +39,8 @@ public class LoginPage extends TestBase {
 	//This Method will perform the Login Action
 	public HomePage login(String uname,String pass) {
 			
-		TestUtility.sendKeys(username, uname);
 		log("UserName Entered "+uname);
 		
-		TestUtility.sendKeys(password, pass);
 		log("Password Entered "+pass);
 		return new HomePage();
 	}

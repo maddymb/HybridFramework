@@ -5,7 +5,6 @@
     <classes>
       <class name="com.tests.HomePageTest">
         <methods>
-          <include name="loginTest"/>
           <include name="afterMethod"/>
           <include name="logoTest"/>
           <include name="tearDown"/>

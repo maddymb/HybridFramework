@@ -225,7 +225,9 @@ public class TestBase {
 	
 	@AfterClass
 	public void tearDown() {
-		driver.quit();
+		if (driver != null) {
+            driver.quit();
+        }
 		log("Browser Closed");
 		extent_report.endTest(extent_test);
 		extent_report.flush();
